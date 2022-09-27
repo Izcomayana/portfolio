@@ -17,6 +17,7 @@ import react from "./assets/images/react.svg"
 import movieApp from "./assets/images/movie-app-preview.jpg"
 import asalytics from "./assets/images/asalytics-preview.jpg"
 import angular from "./assets/images/angular-contributors-preview.jpg"
+import weather from "./assets/images/weather-app-preview.jpg"
 
 function App() {
   const [toggleDarkmode, setToggleDarkmode] = useState(false)
@@ -126,7 +127,13 @@ function App() {
                   <h3>The AngularJs Repo Fetch</h3>
                   <p>A github data fetching platform.</p>
                   <a href="https://angular-repo-contributors.vercel.app/">Take a look👀</a> 
-                </div>              
+                </div>    
+                <div className='project dark:text-[#bbbbbb] sm:w-pw'>
+                  <img src={weather} alt="" />
+                  <h3>The Weather App</h3>
+                  <p>A website where you can check the weather of any city/country.</p>
+                  <a href="https://mayana-weather-app.vercel.app/">Take a look👀</a> 
+                </div>          
               </div>
             </div>
           </body>
