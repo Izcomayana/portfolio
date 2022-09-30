@@ -18,6 +18,7 @@ import movieApp from "./assets/images/movie-app-preview.jpg"
 import asalytics from "./assets/images/asalytics-preview.jpg"
 import angular from "./assets/images/angular-contributors-preview.jpg"
 import weather from "./assets/images/weather-app-preview.jpg"
+import localWeather from "./assets/images/local-weather.jpg"
 
 function App() {
   const [toggleDarkmode, setToggleDarkmode] = useState(false)
@@ -63,9 +64,7 @@ function App() {
             <div className="mt-4">
               <div className="text-center dark:text-white">
                 <img className='inline my-10' src={me} alt="" />
-                <h1 className='text-6xl font-bold pt-6 sm:text-8xl'>
-                  I'm Israel.
-                </h1>
+                <h1 className='text-6xl font-bold pt-6 sm:text-8xl'> I'm Israel.</h1>
                 <p className='dark:text-[#bbbbbb] sm:text-lg my-2'>I build amazing products.</p>
               </div>
 
@@ -133,7 +132,13 @@ function App() {
                   <h3>The Weather App</h3>
                   <p>A website where you can check the weather of any city/country.</p>
                   <a href="https://mayana-weather-app.vercel.app/">Take a look👀</a> 
-                </div>          
+                </div>
+                <div className='project dark:text-[#bbbbbb] sm:w-pw'>
+                  <img src={localWeather} alt="" />
+                  <h3>The Weather App</h3>
+                  <p>A website where you can check, track and save the weather data of any city and state of any country.</p>
+                  <a href="https://mayana-local-weather.vercel.app/">Take a look👀</a> 
+                </div>
               </div>
             </div>
           </body>
