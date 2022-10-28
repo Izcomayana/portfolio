@@ -116,7 +116,7 @@ function App() {
                   </div>
                   <h3>Movie App</h3>
                   <p>A movie info app.</p>
-                  <a href="https://mayana-movie-app.vercel.app/">Take a look👀</a>
+                  <a href="https://mayana-movie-app.vercel.app/" target="_blank">Take a look👀</a>
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={asalytics} alt="" />
@@ -125,7 +125,7 @@ function App() {
                   </div>
                   <h3>The ASAlytics</h3>
                   <p>A data fetching platform.</p>
-                  <a href="https://asalytics-data.vercel.app/">Take a look👀</a> 
+                  <a href="https://asalytics-data.vercel.app/" target="_blank">Take a look👀</a> 
                 </div> 
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={angular} alt="" />
@@ -134,7 +134,7 @@ function App() {
                   </div>
                   <h3>The AngularJs Repo Fetch</h3>
                   <p>A github data fetching platform.</p>
-                  <a href="https://angular-repo-contributors.vercel.app/">Take a look👀</a> 
+                  <a href="https://angular-repo-contributors.vercel.app/" target="_blank">Take a look👀</a> 
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={weather} alt="" />
@@ -143,7 +143,7 @@ function App() {
                   </div>
                   <h3>The Weather App</h3>
                   <p>A website where you can check the weather of any city/country.</p>
-                  <a href="https://mayana-weather-app.vercel.app/">Take a look👀</a> 
+                  <a href="https://mayana-weather-app.vercel.app/" target="_blank">Take a look👀</a> 
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={localWeather} alt="" />
@@ -152,7 +152,7 @@ function App() {
                   </div>
                   <h3>The Local Weather App</h3>
                   <p>A website where you can check, track and save the weather data of any city and state of any country.</p>
-                  <a href="https://mayana-local-weather.vercel.app/">Take a look👀</a> 
+                  <a href="https://mayana-local-weather.vercel.app/" target="_blank">Take a look👀</a> 
                 </div>
               </div>
             </div>
