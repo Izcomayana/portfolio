@@ -43,7 +43,7 @@ function App() {
         <div className="container px-4 md:px-8">
           <header className=''>
             <div className="cv-link dark:text-white">
-              <a href="https://docs.google.com/document/d/1BxYdgkJTpqrUSimGZCvJWUO-NzvPnZdSed9wGg1jTgw/edit?usp=sharing">RESUME</a>
+              <a href="https://docs.google.com/document/d/1BxYdgkJTpqrUSimGZCvJWUO-NzvPnZdSed9wGg1jTgw/edit?usp=drivesdk" target="_blank" rel="noreferrer">RESUME</a>
             </div>
             <div>
               {showDark && <div class="dark:text-white text-dark cursor-pointer text-[1.5em]" onClick={openDark} >
@@ -70,11 +70,10 @@ function App() {
 
               <div className="items-end my-12">
                 <div className='links flex justify-between text-center w-[80%] mt-8 m-auto sm:w-[35%] sm:mt-12'>
-                  <a className='w-[10%]' href="https://www.linkedin.com/in/oluwapelumi-israel-28439a20b/"><img  src={linkedIn} alt="" /></a>
-                  <a className='w-[10%]' href="https://github.com/izcomayana"><img src={github} alt="" /></a>
-                  <a className='w-[10%]' href="https://twitter.com/izco_mayana"><img src={twitter} alt="" /></a>
+                  <a className='w-[10%]' href="https://www.linkedin.com/in/oluwapelumi-israel-28439a20b/" target="_blank" rel="noreferrer"><img  src={linkedIn} alt="" /></a>
+                  <a className='w-[10%]' href="https://github.com/izcomayana"  target="_blank" rel="noreferrer"><img src={github} alt="" /></a>
+                  <a className='w-[10%]' href="https://twitter.com/mayana_techkid" target="_blank" rel="noreferrer"><img src={twitter} alt="" /></a>
                 </div>
-                
               </div>
 
               <div className="my-12 mt-20">
@@ -116,7 +115,7 @@ function App() {
                   </div>
                   <h3>Movie App</h3>
                   <p>A movie info app.</p>
-                  <a href="https://mayana-movie-app.vercel.app/" target="_blank">Take a look👀</a>
+                  <a href="https://mayana-movie-app.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a>
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={asalytics} alt="" />
@@ -125,7 +124,7 @@ function App() {
                   </div>
                   <h3>The ASAlytics</h3>
                   <p>A data fetching platform.</p>
-                  <a href="https://asalytics-data.vercel.app/" target="_blank">Take a look👀</a> 
+                  <a href="https://asalytics-data.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
                 </div> 
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={angular} alt="" />
@@ -134,7 +133,7 @@ function App() {
                   </div>
                   <h3>The AngularJs Repo Fetch</h3>
                   <p>A github data fetching platform.</p>
-                  <a href="https://angular-repo-contributors.vercel.app/" target="_blank">Take a look👀</a> 
+                  <a href="https://angular-repo-contributors.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={weather} alt="" />
@@ -143,7 +142,7 @@ function App() {
                   </div>
                   <h3>The Weather App</h3>
                   <p>A website where you can check the weather of any city/country.</p>
-                  <a href="https://mayana-weather-app.vercel.app/" target="_blank">Take a look👀</a> 
+                  <a href="https://mayana-weather-app.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={localWeather} alt="" />
@@ -152,7 +151,7 @@ function App() {
                   </div>
                   <h3>The Local Weather App</h3>
                   <p>A website where you can check, track and save the weather data of any city and state of any country.</p>
-                  <a href="https://mayana-local-weather.vercel.app/" target="_blank">Take a look👀</a> 
+                  <a href="https://mayana-local-weather.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
                 </div>
               </div>
             </div>
