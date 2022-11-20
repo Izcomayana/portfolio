@@ -19,6 +19,7 @@ import asalytics from "./assets/images/asalytics-preview.jpg"
 import angular from "./assets/images/angular-contributors-preview.jpg"
 import weather from "./assets/images/weather-app-preview.jpg"
 import localWeather from "./assets/images/local-weather.jpg"
+import metabnb from "./assets/images/metabnb.jpg"
 
 function App() {
   const [toggleDarkmode, setToggleDarkmode] = useState(false)
@@ -43,7 +44,7 @@ function App() {
         <div className="container px-4 md:px-8">
           <header className=''>
             <div className="cv-link dark:text-white">
-              <a href="https://docs.google.com/document/d/1BxYdgkJTpqrUSimGZCvJWUO-NzvPnZdSed9wGg1jTgw/edit?usp=drivesdk" target="_blank" rel="noreferrer">RESUME</a>
+              <a href="https://docs.google.com/document/d/1BxYdgkJTpqrUSimGZCvJWUO-NzvPnZdSed9wGg1jTgw/edit?usp=sharing" target="_blank" rel="noreferrer">RESUME</a>
             </div>
             <div>
               {showDark && <div class="dark:text-white text-dark cursor-pointer text-[1.5em]" onClick={openDark} >
@@ -137,7 +138,7 @@ function App() {
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={weather} alt="" />
-                  <div className="tools flex justify-between w-1/3">
+                  <div className="tools flex justify-between w-[45%]">
                     <span>vue</span> <span>css</span> <span>vue-router</span>
                   </div>
                   <h3>The Weather App</h3>
@@ -146,12 +147,21 @@ function App() {
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={localWeather} alt="" />
-                  <div className="tools flex justify-between w-1/3">
+                  <div className="tools flex justify-between w-[45%]">
                     <span>vue</span> <span>axios</span> <span>firebase</span>
                   </div>
                   <h3>The Local Weather App</h3>
                   <p>A website where you can check, track and save the weather data of any city and state of any country.</p>
                   <a href="https://mayana-local-weather.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
+                </div>
+                <div className='project dark:text-[#bbbbbb] sm:w-pw'>
+                  <img src={metabnb} alt="" />
+                  <div className="tools flex justify-between w-[45%]">
+                    <span>react</span><span>tailwind</span> 
+                  </div>
+                  <h3>Metabnb</h3>
+                  <p>You can check, and get details of hotels reservations around your cities.</p>
+                  <a href="https://techkid-metabnb.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
                 </div>
               </div>
             </div>
