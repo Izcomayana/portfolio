@@ -115,8 +115,8 @@ function App() {
               <div className="my-10 flex flex-col justify-center items-center">
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={movieApp} alt="" />
-                  <div className="tools flex justify-between w-1/4">
-                    <span>nuxt</span> <span>css</span> <span>scss</span>
+                  <div className="tools flex">
+                    <span className='mr-3'>nuxt</span> <span className='mr-3'>css</span> <span>scss</span>
                   </div>
                   <h3>Movie App</h3>
                   <p>A movie info app.</p>
@@ -124,8 +124,8 @@ function App() {
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={asalytics} alt="" />
-                  <div className="tools flex justify-between w-1/4">
-                    <span>react</span> <span>css</span> <span>axios</span>
+                  <div className="tools flex">
+                    <span className='mr-3'>react</span> <span className='mr-3'>css</span> <span>axios</span>
                   </div>
                   <h3>The ASAlytics</h3>
                   <p>A data fetching platform.</p>
@@ -133,8 +133,8 @@ function App() {
                 </div> 
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={angular} alt="" />
-                  <div className="tools flex justify-between w-1/4">
-                    <span>nuxt</span> <span>css</span> <span>axios</span>
+                  <div className="tools flex">
+                    <span className='mr-3'>nuxt</span> <span className='mr-3'>css</span> <span>axios</span>
                   </div>
                   <h3>The AngularJs Repo Fetch</h3>
                   <p>A github data fetching platform.</p>
@@ -142,8 +142,8 @@ function App() {
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={weather} alt="" />
-                  <div className="tools flex justify-between w-[45%]">
-                    <span>vue</span> <span>css</span> <span>vue-router</span>
+                  <div className="tools flex">
+                    <span className='mr-3'>vue</span> <span className='mr-3'>css</span> <span>vue-router</span>
                   </div>
                   <h3>The Weather App</h3>
                   <p>A website where you can check the weather of any city/country.</p>
@@ -151,8 +151,8 @@ function App() {
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={localWeather} alt="" />
-                  <div className="tools flex justify-between w-[45%]">
-                    <span>vue</span> <span>axios</span> <span>firebase</span>
+                  <div className="tools flex">
+                    <span className='mr-3'>vue</span> <span className='mr-3'>axios</span> <span>firebase</span>
                   </div>
                   <h3>The Local Weather App</h3>
                   <p>A website where you can check, track and save the weather data of any city and state of any country.</p>
@@ -160,8 +160,8 @@ function App() {
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={metabnb} alt="" />
-                  <div className="tools flex justify-between w-[45%]">
-                    <span>react</span><span>tailwind</span> 
+                  <div className="tools flex">
+                    <span className='mr-3'>react</span> <span>tailwind</span> 
                   </div>
                   <h3>Metabnb</h3>
                   <p>You can check, and get details of hotels reservations around your cities.</p>
