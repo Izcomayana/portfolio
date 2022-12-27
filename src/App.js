@@ -39,10 +39,10 @@ function App() {
   }
 
   return (
-    <div className={`App scroll-smooth  ${ toggleDarkmode && 'dark' }`}>
-      <div className="transition ease-in duration-550 dark:bg-[#161616]">
+    <div className={`App scroll-smooth ${ toggleDarkmode && 'dark' }`}>
+      <div className="transition ease-in duration-550 dark:bg-[#161616] h-screen scrollbar">
         <div className="container px-4 md:px-8">
-          <header className=''>
+          <header>
             <div className="cv-link dark:text-white">
               <a href="https://docs.google.com/document/d/1BxYdgkJTpqrUSimGZCvJWUO-NzvPnZdSed9wGg1jTgw/edit?usp=sharing" target="_blank" rel="noreferrer">RESUME</a>
             </div>
@@ -80,11 +80,15 @@ function App() {
               <div className="my-12 mt-20">
                 <h2 className='sm:text-3xl'>First Of All 🤞🏽</h2>
                 <p className='dark:text-[#bbbbbb] sm:text-lg'>
-                  I am Israel Oluwapelumi, a creative engineer with passion for crafting 
+                  I am Israel Oluwapelumi, a creative frontend developer with proven ability to collaborate effectively 
+                  with developers and designers while spending extra time to be mentored. 
+                  I enjoy working closely with team members to ensure problems are solved, 
+                  provide solutions when necessary and personally picking up slacks everytime. 
+                  With a passion for self growth and software developmenta creative engineer with passion for crafting 
                   high-performance, user-friendly, easy-to-use, and quality web platforms using my stack 
                   and modern productivity technologies.
                   I am dedicated to learning, teamwork, evaluating, 
-                  and applying new technologies to enhance content and functionality
+                  and applying new technologies to enhance content and functionality.
                 </p>
               </div>
             </div>
@@ -172,10 +176,11 @@ function App() {
           <h2 className="text-white text-2xl sm:text-4xl">Friends now🤝🏽?</h2>
           <p className='my-2 sm:my-4 sm:text-lg'>
             Got a question, project or want to work together on something? Feel free to reach out👋🏽.  <br />
-            I’m currently looking fresh opportunities to do what I love and also build amazing stuffs.
+            I’m currently looking fresh opportunities to do what I love and also build amazing stuffs. <br />
+            I’m ready to apply my passion for coding to a talented engineering team to develop quality solutions.
           </p>
           <a href="mailto:oluwapelumisotoyinbo@gmail.com" className="text-sm underline sm:text-lg">oluwapelumisotoyinbo@gmail.com</a>  <br /> <br />
-          <a href="tel:+2348036567514" className='tel mt-13 rounded border-[1px] border-white mt-3 p-1 sm:text-lg'>08036567514</a>
+          <a href="tel:+2348036567514" className='hover:text-yellow hover:bg-white transition-all duration-200 tel mt-13 rounded border-[1px] border-white mt-3 p-1 sm:text-lg'>08036567514</a>
         </footer>
       </div>
     </div>
