@@ -15,11 +15,10 @@ import sass from "./assets/images/sass.png"
 import tailwind from "./assets/images/tailwindcss.svg"
 import react from "./assets/images/react.svg"
 import movieApp from "./assets/images/movie-app-preview.jpg"
-import asalytics from "./assets/images/asalytics-preview.jpg"
-import angular from "./assets/images/angular-contributors-preview.jpg"
-import weather from "./assets/images/weather-app-preview.jpg"
+import dogped from "./assets/images/dogped.jpg"
 import localWeather from "./assets/images/local-weather.jpg"
-import metabnb from "./assets/images/metabnb.jpg"
+import zuri from "./assets/images/zuri.jpg"
+import catchup from "./assets/images/catchup.jpg"
 
 function App() {
   const [toggleDarkmode, setToggleDarkmode] = useState(false)
@@ -84,7 +83,7 @@ function App() {
                   with developers and designers while spending extra time to be mentored. 
                   I enjoy working closely with team members to ensure problems are solved, 
                   provide solutions when necessary and personally picking up slacks everytime. 
-                  With a passion for self growth and software developmenta creative engineer with passion for crafting 
+                  With a passion for self growth, software development and crafting 
                   high-performance, user-friendly, easy-to-use, and quality web platforms using my stack 
                   and modern productivity technologies.
                   I am dedicated to learning, teamwork, evaluating, 
@@ -114,40 +113,56 @@ function App() {
               </p>
               <div className="my-10 flex flex-col justify-center items-center">
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
+                  <img src={zuri} alt="" />
+                  <div className="tools flex">
+                    <span className='mr-3'>react</span>
+                    <span className='mr-3'>redux</span>
+                    <span className='mr-3'>bootstrap</span>
+                    <span>nodejs</span> 
+                  </div>
+                  <h3>Zuri Chat</h3>
+                  <p>
+                    Zuri Chat is a very flexible open source messaging app for organizations 
+                    connecting members to information they need whenever they need them.
+                  </p>
+                  <a href="https://www.zuri.chat/" target="_blank" rel="noreferrer">Take a look👀</a>
+                  <br /> <br />
+                  <a href="https://github.com/zurichat/zc_main" target="_blank" rel="noreferrer">Github here👀</a> 
+                </div>
+                <div className='project dark:text-[#bbbbbb] sm:w-pw'>
+                  <img src={catchup} alt="" />
+                  <div className="tools flex">
+                    <span className='mr-3'>react</span> <span className='mr-3'>css</span> <span>tailwind</span>
+                  </div>
+                  <h3>CatchUp</h3>
+                  <p>
+                    CatchUp is an app for scheduling hangouts with friends and families.
+                  </p>
+                  <a href="https://catchup.hng.tech/" target="_blank" rel="noreferrer">Take a look👀</a> 
+                  <br /><br />
+                  <a href="https://github.com/workshopapps/dinnerwithfriends.web" target="_blank" rel="noreferrer">Github here👀</a> 
+                </div>
+                <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={movieApp} alt="" />
                   <div className="tools flex">
                     <span className='mr-3'>nuxt</span> <span className='mr-3'>css</span> <span>scss</span>
                   </div>
-                  <h3>Movie App</h3>
-                  <p>A movie info app.</p>
+                  <h3>Pre Netflix</h3>
+                  <p>A movie info website where you can get information about latest movies on netflix.</p>
                   <a href="https://mayana-movie-app.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a>
+                  <br /><br />
+                  <a href="https://github.com/Izcomayana/Movie-App" target="_blank" rel="noreferrer">Github here👀</a>
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
-                  <img src={asalytics} alt="" />
+                  <img src={dogped} alt="" />
                   <div className="tools flex">
-                    <span className='mr-3'>react</span> <span className='mr-3'>css</span> <span>axios</span>
+                    <span className='mr-3'>react</span> <span className='mr-3'>vite</span> <span>typescript</span>
                   </div>
-                  <h3>The ASAlytics</h3>
-                  <p>A data fetching platform.</p>
-                  <a href="https://asalytics-data.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
-                </div> 
-                <div className='project dark:text-[#bbbbbb] sm:w-pw'>
-                  <img src={angular} alt="" />
-                  <div className="tools flex">
-                    <span className='mr-3'>nuxt</span> <span className='mr-3'>css</span> <span>axios</span>
-                  </div>
-                  <h3>The AngularJs Repo Fetch</h3>
-                  <p>A github data fetching platform.</p>
-                  <a href="https://angular-repo-contributors.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
-                </div>
-                <div className='project dark:text-[#bbbbbb] sm:w-pw'>
-                  <img src={weather} alt="" />
-                  <div className="tools flex">
-                    <span className='mr-3'>vue</span> <span className='mr-3'>css</span> <span>vue-router</span>
-                  </div>
-                  <h3>The Weather App</h3>
-                  <p>A website where you can check the weather of any city/country.</p>
-                  <a href="https://mayana-weather-app.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
+                  <h3>The Dog Pedigree App</h3>
+                  <p>An app for tracking the origin of german sheperds in Nigeria.</p>
+                  <a href="https://dogped.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a>
+                  <br /><br />
+                  <a href="https://github.com/AyoOluwa-Israel/dog_pedigree" target="_blank" rel="noreferrer">Github here👀</a>
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
                   <img src={localWeather} alt="" />
@@ -157,16 +172,10 @@ function App() {
                   <h3>The Local Weather App</h3>
                   <p>A website where you can check, track and save the weather data of any city and state of any country.</p>
                   <a href="https://mayana-local-weather.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
+                  <br /><br />
+                  <a href="https://github.com/Izcomayana/mayana-local-weather" target="_blank" rel="noreferrer">Github here👀</a>
                 </div>
-                <div className='project dark:text-[#bbbbbb] sm:w-pw'>
-                  <img src={metabnb} alt="" />
-                  <div className="tools flex">
-                    <span className='mr-3'>react</span> <span>tailwind</span> 
-                  </div>
-                  <h3>Metabnb</h3>
-                  <p>You can check, and get details of hotels reservations around your cities.</p>
-                  <a href="https://techkid-metabnb.vercel.app/" target="_blank" rel="noreferrer">Take a look👀</a> 
-                </div>
+                <p className='dark:text-[#bbbbbb] sm:text-lg'>There's more on github...</p>
               </div>
             </div>
           </body>
