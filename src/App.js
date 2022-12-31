@@ -14,7 +14,7 @@ import vue from "./assets/images/vue.png"
 import sass from "./assets/images/sass.png"
 import tailwind from "./assets/images/tailwindcss.svg"
 import react from "./assets/images/react.svg"
-import movieApp from "./assets/images/movie-app-preview.jpg"
+import preNetflix from "./assets/images/pre-netflix.jpg"
 import dogped from "./assets/images/dogped.jpg"
 import localWeather from "./assets/images/local-weather.jpg"
 import zuri from "./assets/images/zuri.jpg"
@@ -143,7 +143,7 @@ function App() {
                   <a href="https://github.com/workshopapps/dinnerwithfriends.web" target="_blank" rel="noreferrer">Github here👀</a> 
                 </div>
                 <div className='project dark:text-[#bbbbbb] sm:w-pw'>
-                  <img src={movieApp} alt="" />
+                  <img src={preNetflix} alt="" />
                   <div className="tools flex">
                     <span className='mr-3'>nuxt</span> <span className='mr-3'>css</span> <span>scss</span>
                   </div>
