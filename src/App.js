@@ -43,7 +43,7 @@ function App() {
         <div className="container px-4 md:px-8">
           <header>
             <div className="cv-link dark:text-white">
-              <a href="https://docs.google.com/document/d/1BxYdgkJTpqrUSimGZCvJWUO-NzvPnZdSed9wGg1jTgw/edit?usp=sharing" target="_blank" rel="noreferrer">RESUME</a>
+              <a href="https://docs.google.com/document/d/14gjAgDVSeR22KI0DTudmaUcnc4vICL6SpA5jWjPbNjg/edit?usp=sharing" target="_blank" rel="noreferrer">RESUME</a>
             </div>
             <div>
               {showDark && <div class="dark:text-white text-dark cursor-pointer text-[1.5em]" onClick={openDark} >
