@@ -21,7 +21,7 @@ import zuri from "./assets/images/zuri.jpg"
 import catchup from "./assets/images/catchup.jpg"
 
 function App() {
-  const [toggleDarkmode, setToggleDarkmode] = useState(false)
+  const [toggleDarkmode, setToggleDarkmode] = useState(true)
   const [showDark, setShowDark] = useState(false)
   const [showLight, setShowLight] = useState(true)
 
@@ -70,7 +70,7 @@ function App() {
 
               <div className="items-end my-12">
                 <div className='links flex justify-between text-center w-[80%] mt-8 m-auto sm:w-[35%] sm:mt-12'>
-                  <a className='w-[10%]' href="https://www.linkedin.com/in/oluwapelumi-israel-28439a20b/" target="_blank" rel="noreferrer"><img  src={linkedIn} alt="" /></a>
+                  <a className='w-[10%]' href="https://www.linkedin.com/in/oluwapelumi-sotoyinbo-28439a20b/" target="_blank" rel="noreferrer"><img  src={linkedIn} alt="" /></a>
                   <a className='w-[10%]' href="https://github.com/izcomayana"  target="_blank" rel="noreferrer"><img src={github} alt="" /></a>
                   <a className='w-[10%]' href="https://twitter.com/mayana_techkid" target="_blank" rel="noreferrer"><img src={twitter} alt="" /></a>
                 </div>
@@ -175,7 +175,11 @@ function App() {
                   <br /><br />
                   <a href="https://github.com/Izcomayana/mayana-local-weather" target="_blank" rel="noreferrer">Github here👀</a>
                 </div>
-                <p className='dark:text-[#bbbbbb] sm:text-lg'>There's more on github...</p>
+                <p className='dark:text-[#bbbbbb] sm:text-lg'>
+                  <a href="https://github.com/izcomayana"  target="_blank" rel="noreferrer">
+                    There's more on github...
+                  </a>
+                </p>
               </div>
             </div>
           </body>
